@@ -59,6 +59,7 @@ function getCharLen() {
 
   // Checks for numerics, and that the number is 8 <=len <= 128
   if (!len.match(/^[0-9]+$/) || (Number(len) < 8 || Number(len) > 128)) {
+    alert("Character length must be a number between 8 and 128 characters (inclusive). Please try again.")
     len = getCharLen()
   }
   return len
@@ -75,6 +76,7 @@ function getBool(ask) {
   } else if (bool.match(/^(No|no|N|n|False|false|F|f)$/)) {
     return false
   } else {
-    bool = getBool(ask)
+    alert("Invalid response. Please type 'y' or 'n'")
+   return bool = getBool(ask)
   }
 }
