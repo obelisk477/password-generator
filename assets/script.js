@@ -13,8 +13,6 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-
-
 // Function to take data in from prompts and create bassword based on input
 function generatePassword() {
 
@@ -54,8 +52,6 @@ function generatePassword() {
 
   return password
 }
-
-
 
 // Helper function for generatePassword() that checks for a numeric value in the prompt between 8 and 128 (inclusive)
 function getCharLen() {

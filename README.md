@@ -14,7 +14,7 @@ Visit https://obelisk477.github.io/week-03-homework/ and navigate the page as yo
 
 ## Screenshot
 
-![portfolio demo](./assets/images/ReadmeSS.png)
+![portfolio demo](./assets/images/ApplicationSS.png)
 
 ## License
 
