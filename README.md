@@ -6,7 +6,7 @@ This is a simple password generator based on user inputs around password length 
 
 ## Usage
 
-Visit https://obelisk477.github.io/week-03-homework/ and navigate the page as you see fit 
+Visit https://obelisk477.github.io/week-03-homework/ and click the "Generate Password" button. Navigate through the prompts and provide your preferences for character length of your password, as well as your preferences for uppercase, lowercase, numeric, and special characters. After inputting, your password will be displayed on the screen. Should you enter an invalid input at any point, the system will ask you to try again.
 
 ## Credits
 
